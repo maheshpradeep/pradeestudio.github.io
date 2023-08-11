@@ -1,5 +1,5 @@
 <?php
-require_once 'db_config.php'; // Include your database connection
+require_once 'db_config.php'; 
 
 if (isset($_GET['username'])) {
     $username = $_GET['username'];
@@ -14,7 +14,7 @@ if (isset($_GET['username'])) {
         $usernameExists = false;
     }
 
-    // Return a JSON response
+   
     header('Content-Type: application/json');
     echo json_encode(['exists' => $usernameExists]);
 }

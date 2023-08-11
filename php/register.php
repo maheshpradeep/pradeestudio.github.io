@@ -8,7 +8,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $email = $_POST['email'];
     $password = $_POST['password'];
 
-    // Check if username already exists
+    
     $checkUsernameSql = "SELECT COUNT(*) AS count FROM users WHERE username = '$username'";
     $checkUsernameResult = $conn->query($checkUsernameSql);
 
@@ -21,7 +21,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
             $insertSql = "INSERT INTO users (username, email, password) VALUES ('$username', '$email', '$hashedPassword')";
             if ($conn->query($insertSql) === TRUE) {
-                header("Location:pages/loging_index.html");
+                header("Location:../pages/loging_index.html");
                 exit;
             } else {
                 $message = "Error: " . $insertSql . "<br>" . $conn->error;

@@ -176,11 +176,9 @@ nav ul li a:hover::after {
   }
 
 
-/* Existing CSS rules */
 
-/* ... */
 
-/* Add these CSS rules for the copyright section */
+
 .footer-container {
     position: absolute;
     bottom: 0;
@@ -191,7 +189,7 @@ nav ul li a:hover::after {
     font-weight: 300;
 }
 
-/* Adjust the styles for the copyright text */
+
 .footer-container p {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin: 0;

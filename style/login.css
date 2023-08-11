@@ -1,4 +1,4 @@
-/* Style for the login form */
+
 
 form {
     max-width: 350px;
@@ -62,7 +62,7 @@ form {
 }
 
   
-  /* Responsive layout adjustments */
+ 
   @media screen and (max-width: 480px) {
     form {
       width: 80%;

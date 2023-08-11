@@ -2,8 +2,8 @@ document.addEventListener("DOMContentLoaded", function() {
     const loginForm = document.getElementById("loginForm");
 
     loginForm.addEventListener("submit", async function(event) {
-        event.preventDefault(); // Prevent form submission
-        loginForm.submit(); // Submit the form
+        event.preventDefault(); 
+        loginForm.submit(); 
     });
 });
 
@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function() {
   const loginButton = document.getElementById("login-button");
 
   loginButton.addEventListener("click", function() {
-      window.location.href = "../pages/loging_index.html"; // Replace with the actual PHP login page URL
+      window.location.href = "../pages/loging_index.html"; 
   });
 });
 
@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function() {
   const registerButton = document.getElementById("Register-button");
 
   registerButton.addEventListener("click", function() {
-      window.location.href = "../reigster.html"; // Replace with the actual PHP login page URL
+      window.location.href = "../reigster.html"; 
   });
 });
 
