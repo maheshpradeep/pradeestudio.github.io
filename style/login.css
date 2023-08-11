@@ -1,0 +1,70 @@
+/* Style for the login form */
+
+form {
+    max-width: 350px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    margin-top: -650px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    height: 400px;
+
+  }
+  
+  form h2 {
+    margin-bottom: 20px;
+    font-size: 35px;
+    color: #ffffff;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #fffefe;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  form input[type="text"],
+  form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  form button[type="submit"] {
+    background-color: #ff004f;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+    font-size: 20px;
+  }
+  
+  form button[type="submit"]:hover {
+    background-color: #2b048d;
+  }
+
+  .error-message {
+    color: #ff004f;
+    font-size: 20px;
+    margin-top: 5px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+  
+  /* Responsive layout adjustments */
+  @media screen and (max-width: 480px) {
+    form {
+      width: 80%;
+    }
+  }

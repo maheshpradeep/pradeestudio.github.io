@@ -93,44 +93,6 @@ document.addEventListener("DOMContentLoaded", function() {
 
 //////////////////////////////////////////////////////////////
 
-//form validation
-
-function validateForm(event) {
-  event.preventDefault();
-
-  var name = document.getElementById('name').value;
-  var email = document.getElementById('email').value;
-  var phone = document.getElementById('phone').value;
-
-  if (name.trim() === '') {
-    alert('Please enter your name.');
-    return;
-  }
-
-  if (!isValidEmail(email)) {
-    alert('Please enter a valid email address.');
-    return;
-  }
-
-  if (!isValidPhone(phone)) {
-    alert('Please enter a valid phone number.');
-    return;
-  }
-
-
-  alert('Form submitted successfully!');
-  document.getElementById('contactForm').reset();
-}
-
-function isValidEmail(email) {
-  var pattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-  return pattern.test(email);
-}
-
-function isValidPhone(phone) {
-  var pattern = /^\d{10}$/;
-  return pattern.test(phone);
-}
 
 
 smoothScroll.init();

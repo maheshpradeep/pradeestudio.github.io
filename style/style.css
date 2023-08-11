@@ -348,6 +348,13 @@ nav ul li a:hover::after {
 
 }
 
+/* Target only the "Book Now" button */
+.btn.btn3 {
+    font-size: 25px; /* Adjust the font size as needed */
+}
+
+
+
 .contact-left{
     flex-basis:35%;
 }
@@ -413,14 +420,22 @@ form .btn2{
     margin-top: 20px;
     cursor: pointer;
 }
-.copyright{
-    width:100%;
-    text-align:center;
+.footer-container {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
     padding: 10px 0;
     background: linear-gradient(to right, #b10000, #6a00ff);
     font-weight: 300;
-    margin-top: 20px;
 }
+
+/* Adjust the styles for the copyright text */
+.footer-container p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+}
+
 
 .copyright i {
     color: #ababab;
@@ -430,7 +445,6 @@ form .btn2{
 .copyright p{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-
 
 #slideshow-container {
     position: fixed;
@@ -493,8 +507,21 @@ form .btn2{
     margin-top: 20px;
   }
   
+  .popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 15px;
+    background-color: #4CAF50;
+    color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    z-index: 9999;
+    opacity: 1;
+    transition: opacity 0.5s ease;
+}
 
-  
 
 
 

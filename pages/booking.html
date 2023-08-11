@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pradee Studio</title>
+    <link rel="stylesheet" href="../style/booking.css">
+    <link rel="stylesheet" href="../style/booking_now.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <script src="../js/booking_now.js"></script>
+
+    <div id="slideshow-container">
+        <div class="slide">
+            <img src="../images/1.jpg" alt="Slideshow Image">
+        </div>
+        <div class="slide">
+            <img src="../images/2.jpg" alt="Slideshow Image">
+        </div>
+        <div class="slide">
+            <img src="../images/3.jpg" alt="Slideshow Image">
+        </div>
+
+    </div>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="../images/logo.png" class="logo">
+                <ul>
+                    <li><a href="../index.html">HOME</a></li>
+                    <li><a href="../index.html#about">ABOUT</a></li>
+                    <li><a href="../index.html#service">PACKAGES</a></li>
+                    <li><a href="../index.html#gallery">GALLERY</a></li>
+                    <li><a href="../index.html#contact">CONTACT US</a></li>
+                </ul>
+            </nav>
+           
+
+        </div>
+    </div>
+    <form id="bookingForm" action="../php/booking.php" method="post">
+        <h2>Book Now</h2>
+        <label for="username">User Name</label>
+        <input type="text" id="username" placeholder="User Name" name="username" required><br>
+
+        <label for="serviceType">Service Type</label>
+        <select id="serviceType" name="serviceType">
+            <option value="service1">Photography</option>
+            <option value="service2">Audio Engineering</option>
+            <option value="service3">Videography</option>
+
+        </select><br>
+
+        <label for="package">Package</label>
+        <select id="package" name="package">
+            <option value="package1">Silver Package</option>
+            <option value="package2">Gold Package</option>
+            <option value="package3">Platinum Package</option>
+ 
+        </select><br>
+
+        <label for="date">Select Date</label>
+        <input type="date" id="date" name="date" required><br>
+
+        <button type="submit">Book Now</button>
+
+ 
+    </form>
+
+    <div class="footer-container">
+        <div class="copyright">
+            <p>All Right Received @ PradeeStudio</p>
+        </div>
+    </div>
+</body>
+</html>

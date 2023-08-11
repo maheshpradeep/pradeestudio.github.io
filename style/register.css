@@ -1,0 +1,71 @@
+
+
+#registrationContainer {
+    margin: 0 auto;
+    max-width: 350px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin-top: -650px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    height: 450px;
+
+  
+  #registrationForm {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #registrationForm label {
+    margin-bottom: 3px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  #registrationForm input {
+    margin-bottom: 1px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  #message {
+    color: #ff004f;
+    font-size: 20px;
+    margin-top: 5px;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  #submitButton {
+    background-color: #ff004f;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: -8px;
+    font-size: 20px;
+  }
+  
+  #submitButton:hover {
+    background-color: #2b048d;
+  }
+  
+  @media screen and (max-width: 768px) {
+    #registrationContainer {
+      width: 100%;
+      padding: 10px;
+    }
+  }
+  
+  #registrationForm h2 {
+    margin-bottom: 20px;
+    font-size: 35px;
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+
+  }}

@@ -1,0 +1,94 @@
+/* Styles for the booking form */
+#bookingForm {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 350px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: -650px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    height: 450px;
+}
+
+#bookingForm h2 {
+    margin-bottom: 20px;
+    color: #ffffff;
+    font-size: 35px;
+}
+
+#bookingForm label {
+    display: block;
+    margin-top: 10px;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#bookingForm input[type="text"],
+#bookingForm select,
+#bookingForm input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#bookingForm button[type="submit"] {
+    background-color: #ff004f;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-weight: bold;
+    transition: background-color 0.2s;
+}
+
+#bookingForm button[type="submit"]:hover {
+    background-color: #2b048d;
+}
+
+.confirmation-container {
+    background-color: transparent;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    max-width: 400px;
+    width: 350px;
+    margin: 0 auto;
+    margin-top: -650px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    height: 450px;
+
+  }
+  
+  .confirmation-container h2 {
+    color: #ff004f;
+    font-size: 50px;
+    margin-bottom: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+  }
+  
+  .confirmation-container p {
+    font-size:40px;
+    color: #ffffff;
+    margin-top: 25px;
+    font-weight: bold;
+    
+  }
+  
+  .confirmation-container h5 {
+    color: #ffffff;
+    font-size: 30px;
+    margin-top: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    font-weight: bold;
+  }
